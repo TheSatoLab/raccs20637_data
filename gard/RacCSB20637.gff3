@@ -1,0 +1,20 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region RacCSB20637 1 29836
+##species RacCSB20637
+RacCSB20637	Genbank	region	1	29836	.	+	.	ID=RacCSB20637
+RacCSB20637	Genbank	CDS	266	13444	.	+	.	ID=ORF1a
+RacCSB20637	Genbank	CDS	13429	21516	.	+	.	ID=ORF1b
+RacCSB20637	Genbank	CDS	21523	25320	.	+	.	ID=S
+RacCSB20637	Genbank	CDS	25329	26156	.	+	.	ID=ORF3a
+RacCSB20637	Genbank	CDS	25750	25818	.	+	.	ID=ORF3b
+RacCSB20637	Genbank	CDS	26181	26408	.	+	.	ID=E
+RacCSB20637	Genbank	CDS	26459	27124	.	+	.	ID=M
+RacCSB20637	Genbank	CDS	27135	27320	.	+	.	ID=ORF6
+RacCSB20637	Genbank	CDS	27327	27692	.	+	.	ID=ORF7a
+RacCSB20637	Genbank	CDS	27689	27820	.	+	.	ID=ORF7b
+RacCSB20637	Genbank	CDS	27827	28192	.	+	.	ID=ORF8
+RacCSB20637	Genbank	CDS	28207	29466	.	+	.	ID=N
+RacCSB20637	Genbank	CDS	28217	28510	.	+	.	ID=ORF9b
+RacCSB20637	Genbank	CDS	29491	29607	.	+	.	ID=ORF10

@@ -1,0 +1,141 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=39;
+	taxlabels
+	'AY394995.1'[&SOURCE="10.1126/science.1092002",coordinate_comment="province-level",coordinate_loc="Guangzhou",country="Guangdong",date="2002-12",host="Homo sapiens",isolate="SARS-CoV",latitude=23.18938968023,longitude=113.22208821094604]
+	'DQ022305.2'[&SOURCE="10.1128/JVI.02219-09",coordinate_comment="province-level",coordinate_loc="Hong Kong",country="Guangdong",date="2005-02-17",host="Rhinolophus sinicus",isolate="HKU3-1",latitude=22.3334297,longitude=114.1770884]
+	'DQ412042.1'[&SOURCE="10.1126/science.1118391",coordinate_comment="province-level",coordinate_loc="Yichang",country="Hubei",date="2004-11",host="Rhinolophus ferrumequinum",isolate="Rf1",latitude=30.693192888459222,longitude=111.29423882047676]
+	EPI_ISL_412977[&SOURCE="10.1016/j.cub.2020.05.023",coordinate_loc="Mengla",country="Yunnan",date="2019-06-25",host="Rhinolophus malayanus",isolate="RmYN02",latitude=21.47195672907145,longitude=101.556792038927]
+	EPI_ISL_852605[&SOURCE="10.1101/2021.01.26.428212",coordinate_loc="Steung Treng Province",country="Cambodia",date="2010-12-06",host="Rhinolophus shameli",isolate="RshSTT200",latitude=13.72259968,longitude=106.25267209999998]
+	'JX993987.1'[&SOURCE="10.3201/eid1906.121648",coordinate_comment="province-level",coordinate_loc="Shaanxi",country="Shaanxi",date="2011-09",host="Rhinolophus pusillus",isolate="Rp/Shaanxi2011",latitude=36.02900378,longitude=109.643279]
+	'KF367457.1'[&SOURCE="10.1038/nature12711",coordinate_comment="province-level",coordinate_loc="Kunming",country="Yunnan",date="2012-09",general_comment="species correction: https://www.frontiersin.org/articles/10.3389/fmicb.2020.597510/full",host="Rhinolophus sinicus",isolate="WIV1",latitude=24.88310543,longitude=102.8215365]
+	'KF569996.1'[&SOURCE="10.1128/JVI.00631-14",coordinate_comment="province-level",coordinate_loc="Baoshan, Yunnan",country="Yunnan",date="2011",general_comment="species correction: https://www.frontiersin.org/articles/10.3389/fmicb.2020.597510/full",host="Rhinolophus affinis",isolate="LYRa11",latitude=25.25125189,longitude=99.11107516]
+	'KJ473812.1'[&SOURCE="10.1093/infdis/jiv476",coordinate_comment="province-level",coordinate_loc="Hebei",country="Hebei",date="2013",host="Rhinolophus ferrumequinum",isolate="BtRf-HeB2013",latitude=39.04257009016735,longitude=115.30952951168858]
+	'KY352407.1'[&SOURCE="10.1128/MRA.00548-19",coordinate_comment="province-level",coordinate_loc="Kenya",country="Kenya",date="2007-08",host="Rhinolophus sp.",isolate="BtKY72",latitude=0.3802214649993059,longitude=37.76283048316015]
+	'LC556375.1'[&SOURCE="10.3201/eid2612.203386",coordinate_comment="province-level",coordinate_loc="Iwate",country="Iwate",date="2013",host="Rhinolophus cornutus",isolate="Rc-o319",latitude=39.4579663,longitude=141.3566069]
+	'MG772933.1'[&SOURCE="10.1038/s41426-018-0155-5",coordinate_comment="province-level",coordinate_loc="Zhoushan",country="Zhejiang",date="2017-02",general_comment="PCR spike only",host="Rhinolophus pusillus",isolate="bat-SL-CoVZC45",latitude=29.99128034,longitude=122.1944505]
+	'MG772934.1'[&SOURCE="10.1038/s41426-018-0155-5",coordinate_comment="province-level",coordinate_loc="Zhoushan",country="Zhejiang",date="2015-07",general_comment="PCR spike only",host="Rhinolophus pusillus",isolate="bat-SL-CoVZXC21",latitude=29.99128034,longitude=122.1944505]
+	'MN908947.3'[&SOURCE="",coordinate_comment="province-level",coordinate_loc="Wuhan",country="Hubei",date="2019-12",general_comment="PCR spike only",host="Homo sapiens",isolate="SARS-CoV-2",latitude=30.67321023,longitude=114.2987561]
+	'MN996532.2'[&SOURCE="10.1038/s41586-020-2012-7",coordinate_comment="country-level",coordinate_loc="Tongguan Town",country="Yunnan",date="2013-07-24",general_comment="PCR spike only",host="Rhinolophus affinis",isolate="RaTG13",latitude=23.29298412,longitude=101.3836952]
+	'MT040335.1'[&SOURCE="10.1038/s41586-020-2169-0",coordinate_comment="province-level",coordinate_loc="Guangxi",country="Guangxi",date="2017",general_comment="PCR spike only",host="Manis javanica",isolate="PCoV_GX-P5L",latitude=23.803076500000003,longitude=110.7481393]
+	'MT121216.1'[&SOURCE="10.1371/journal.ppat.1008421",coordinate_loc="Guangdong",country="Guangdong",date="2019-03-29",host="Manis javanica",isolate="MP789",latitude=23.86367166708743,longitude=115.13543046617524]
+	'MW251308.1'[&SOURCE="10.1038/s41467-021-21240-1",coordinate_comment="province-level",coordinate_loc="Chachoengsao",country="Thailand",date="2020-06-19",host="Rhinolophus acuminatus",isolate="RacCS203",latitude=13.6963003,longitude=101.12112890000002]
+	'MZ081380.1'[&SOURCE="10.1016/j.cell.2021.06.008",coordinate_comment="province-level",coordinate_loc="Mengla",country="Yunnan",date="2020-04-18",host="Rhinolophus stheno",isolate="RsYN04",latitude=21.47195673,longitude=101.556792]
+	'MZ081381.1'[&SOURCE="10.1016/j.cell.2021.06.008",coordinate_comment="province-level",coordinate_loc="Mengla",country="Yunnan",date="2020-05-25",host="Rhinolophus pusillus",isolate="RpYN06",latitude=21.47195673,longitude=101.556792]
+	'MZ937000.1'[&SOURCE="10.21203/rs.3.rs-871965/v1",coordinate_comment="province-level",coordinate_loc="Fuengâ€‹â?‹â?? Districtâ€?, Vientiane Province ",country="Laos",date="2020-07-05",host="Rhinolophus malayanus",isolate="BANAL-20-52",latitude=18.66585993222259,longitude=102.14923141373971]
+	'MZ937001.1'[&SOURCE="10.21203/rs.3.rs-871965/v1",coordinate_comment="province-level",coordinate_loc="Fuengâ€‹â?‹â?? Districtâ€?, Vientiane Province ",country="Laos",date="2020-07-07",host="Rhinolophus pusillus",isolate="BANAL-20-103",latitude=18.66585993222259,longitude=102.14923141373971]
+	'MZ937002.1'[&SOURCE="10.21203/rs.3.rs-871965/v1",coordinate_comment="province-level",coordinate_loc="Fuengâ€‹â?‹â?? Districtâ€?, Vientiane Province ",country="Laos",date="2020-07-07",host="Rhinolophus malayanus",isolate="BANAL-20-116",latitude=18.66585993222259,longitude=102.14923141373971]
+	'MZ937003.1'[&SOURCE="10.21203/rs.3.rs-871965/v1",coordinate_comment="province-level",coordinate_loc="Fuengâ€‹â?‹â?? Districtâ€?, Vientiane Province ",country="Laos",date="2020-07-10",host="Rhinolophus marshalli",isolate="BANAL-20-236",latitude=18.66585993222259,longitude=102.14923141373971]
+	'MZ937004.1'[&SOURCE="10.21203/rs.3.rs-871965/v1",coordinate_comment="province-level",coordinate_loc="Fuengâ€‹â?‹â?? Districtâ€?, Vientiane Province ",country="Laos",date="2020-07-10",host="Rhinolophus malayanus",isolate="BANAL-20-247",latitude=18.66585993222259,longitude=102.14923141373971]
+	'NC_014470.1'[&SOURCE="10.1128/JVI.00650-10",coordinate_comment="province-level",coordinate_loc="Strandzha Nature Park",country="Bulgaria",date="2008",host="Rhinolophus blasii",isolate="BM48-31",latitude=42.090717655816704,longitude=27.67733227813969]
+	'OK017804.1'[&SOURCE="10.1093/nsr/nwac213",coordinate_loc="Hunan",country="Hunan",date="2021-02",host="Rhinolophus pusillus",isolate="HN2021B",latitude=28.02499168710197,longitude=111.30904305284376]
+	'OK017806.1'[&SOURCE="10.1093/nsr/nwac213",coordinate_loc="Yunnan",country="Yunnan",date="2021-04",host="Rhinolophus pusillus",isolate="YN2021",latitude=24.2662109374504,longitude=101.49052981981724]
+	'ON378802.1'[&SOURCE="10.3390/v14071389",coordinate_loc="Xianning city",country="South Korea",date="2020-03-20",host="Rhinolophus ferrumequinum",isolate="BatCoV_B20-50",latitude=24.49791,longitude=102.21805]
+	'OP963576.1'[&SOURCE="10.1038/s41467-023-39835-1",coordinate_loc="Chuxiong",country="Yunnan",date="2018",host="Rhinolophus pusillus",isolate="BtSY2",latitude=25.0329,longitude=101.54615]
+	'OR233302.1'[&SOURCE="10.1111/mec.17486",country="Vietnam",date="2022-06-26",host="Rhinolophus pusillus",isolate="Rp22DB159",latitude=23.386071911547702,longitude=103.38375938299626]
+	'OR233324.1'[&SOURCE="10.1111/mec.17486",country="Vietnam",date="2022-11-03",host="Rhinolophus affinis",isolate="Ra22QT77",latitude=22.39,longitude=102.24]
+	'OR233325.1'[&SOURCE="10.1111/mec.17486",coordinate_loc="",country="Vietnam",date="2022-06-26",host="Rhinolophus affinis",isolate="Ra22DB163",latitude=11.88,longitude=107.98]
+	RacCS20583[&SOURCE="Chula",country="Thailand",date="2020-07-22",host="Rhinolophus acuminatus",isolate="RacCS20583",latitude=13.409845054231498,longitude=101.88015941162524]
+	RacCS20588[&SOURCE="Chula",country="Thailand",date="2020-07-22",host="Rhinolophus acuminatus",isolate="RacCS20588",latitude=13.409845054231498,longitude=101.88015941162524]
+	RacCS20600a[&SOURCE="Chula",country="Thailand",date="2020-07-22",host="Rhinolophus acuminatus",isolate="RacCS20600a",latitude=13.409845054231498,longitude=101.88015941162524]
+	RacCS20600b[&SOURCE="Chula",country="Thailand",date="2020-07-22",host="Rhinolophus acuminatus",isolate="RacCS20600b",latitude=13.409845054231498,longitude=101.88015941162524]
+	RacCS20605[&SOURCE="Chula",country="Thailand",date="2020-07-22",host="Rhinolophus acuminatus",isolate="RacCS20605",latitude=13.409845054231498,longitude=101.88015941162524]
+	RacCS20637[&SOURCE="Chula",country="Thailand",date="2020-07-22",host="Rhinolophus acuminatus",isolate="RacCS20637",latitude=13.409845054231498,longitude=101.88015941162524]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('NC_014470.1':0.200446,'KY352407.1':0.218164)[&label=100]:0.075063,((('KF569996.1':0.058681,('AY394995.1':0.026631,('KF367457.1':0.015257,'OR233325.1':0.014734)[&label=99]:0.007477)[&label=100]:0.02164)[&label=100]:0.023273,(('DQ022305.2':0.070079,'JX993987.1':0.091926)[&label=66]:0.01035,('ON378802.1':0.020352,('KJ473812.1':0.005681,'DQ412042.1':0.006319)[&label=100]:0.005835)[&label=100]:0.066535)[&label=100]:0.025597)[&label=100]:0.089993,('LC556375.1':0.182012,('MZ081380.1':0.527125,('MT040335.1':0.138657,(('MT121216.1':0.05327,('MW251308.1':2.05E-4,RacCS20600a:0.001147)[&label=100]:0.053779)[&label=51]:0.005556,(('OK017804.1':0.01872,('MG772933.1':0.010662,'MG772934.1':0.009538)[&label=100]:0.011942)[&label=100]:0.051753,((EPI_ISL_852605:0.001524,'OR233324.1':0.005704)[&label=100]:0.044374,(('OK017806.1':0.007111,('OR233302.1':0.004107,'OP963576.1':0.006708)[&label=52]:0.00118)[&label=100]:0.02262,(((RacCS20637:1.8E-4,RacCS20588:4.6E-5)[&label=61]:1.0E-4,(RacCS20605:4.9E-5,(RacCS20583:3.0E-6,RacCS20600b:9.1E-5)[&label=78]:3.0E-6)[&label=88]:7.8E-5)[&label=100]:0.025723,(('MZ937001.1':0.010765,'MZ937003.1':0.007042)[&label=98]:0.00369,(('MZ937000.1':0.010458,'MN996532.2':0.032009)[&label=48]:0.012592,('MN908947.3':0.016241,('MZ081381.1':0.009565,(EPI_ISL_412977:0.00971,('MZ937002.1':6.12E-4,'MZ937004.1':0.00109)[&label=100]:0.007881)[&label=100]:0.032811)[&label=89]:0.03522)[&label=42]:0.006724)[&label=41]:0.009048)[&label=35]:0.004774)[&label=55]:0.004862)[&label=79]:0.007904)[&label=81]:0.01586)[&label=73]:0.013008)[&label=100]:0.069276)[&label=100]:0.059139)[&label=100]:0.052851)[&label=100]:0.064455)[&label=100,!rotate=false]:0.075063);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=12;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=0.1;
+	set scaleAxis.minorTicks=0.05;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=false;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.1;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="isolate";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=21;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
